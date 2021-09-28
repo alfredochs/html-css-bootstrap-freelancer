@@ -2,4 +2,15 @@
 :root {
     --bs-dark-rgb: 44,63,80;
     --bs-success-rgb: 26,188,157;
+    --bs-secondary-rgb: 58,84,109;
+    --bs-danger:26,188,157;
+}
+.btn-danger{
+    background-color: #58B99E;
+    border-color: #58B99E;
+}
+
+.btn-danger:hover{
+    background-color: #3a816d;
+    border-color: #479882;
 }

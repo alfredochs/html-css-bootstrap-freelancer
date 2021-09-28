@@ -15,95 +15,111 @@
 <body>
 
     <header>
-        <div class="container bg-dark text-white py-4">
-            <nav class="d-flex">
-                <h1>Start Bootstrap</h1>
-                <ul class="list-unstyled d-none">
-                    <li><a href="#" class="text-white">Portfolio</a></li>
-                    <li><a href="#" class="text-white">About</a></li>
-                    <li><a href="#" class="text-white">Contact</a></li>
-                </ul>
-                <div class=" d-flex">
-                    <button type="button">Menu</button>
-                </div>
-            </nav>
+        <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <nav class="d-flex justify-content-between">
+                    <h1>Start Bootstrap</h1>
+                    <ul class="list-unstyled d-none d-md-flex">
+                        <li><a href="#" class="text-white px-3">Portfolio</a></li>
+                        <li><a href="#" class="text-white px-3">About</a></li>
+                        <li><a href="#" class="text-white px-3">Contact</a></li>
+                    </ul>
+                    <div class="d-md-none">
+                        <a href="#"><i class="fas fa-bars"></i></a>
+                    </div>
+                </nav>
+            </div>
         </div>
-        <div class="container bg-success text-white text-center">
-            <div class="text-center">
-                <img src="img/avatar.svg" class="w-50" alt="avatar">
-                <h1>Start Bootstrap</h1>
-            </div>
 
-            <div class="d-flex justify-content-center">
-                <div class="border"></div>
-                <div><i class="fas fa-star"></i></div>
-                <div class="border"></div>
-            </div>
-            <div>
-                Graphic Artist - Web Designer - Illustrator
+        <div class="container-fluid bg-success ">
+            <div class="container text-white text-center">
+
+
+                <div class="text-center">
+                    <img src="img/avatar.svg" class="w-50 w-md-25" alt="avatar">
+                    <h1>Start Bootstrap</h1>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <div class="border"></div>
+                    <div><i class="fas fa-star"></i></div>
+                    <div class="border"></div>
+                </div>
+                <div>
+                    Graphic Artist - Web Designer - Illustrator
+                </div>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="container text-center">
-            <h4>Portfolio</h4>
+        <div class="container text-center py-4">
+            <h2>Portfolio</h2>
             <div class="d-flex justify-content-center">
                 <div class="border"></div>
                 <div><i class="fas fa-star"></i></div>
                 <div class="border"></div>
             </div>
             <div class="row row-cols-1">
-                <div class="col col-md-6">
+                <div class="col col-md-6 col-lg-4">
                     <img src="img/cabin.png" class="w-100 my-2 rounded" alt="cabin">
                 </div>
-                <div class="col col-md-6">
+                <div class="col col-md-6 col-lg-4">
                     <img src="img/cake.png" class="w-100 my-2 rounded" alt="cake">
                 </div>
-                <div class="col col-md-6">
+                <div class="col col-md-6 col-lg-4">
                     <img src="img/circus.png" class="w-100 my-2 rounded" alt="circus">
                 </div>
-                <div class="col col-md-6">
+                <div class="col col-md-6 col-lg-4">
                     <img src="img/game.png" class="w-100 my-2 rounded" alt="game">
                 </div>
-                <div class="col col-md-6">
+                <div class="col col-md-6 col-lg-4">
                     <img src="img/safe.png" class="w-100 my-2 rounded" alt="safe">
                 </div>
-                <div class="col col-md-6">
+                <div class="col col-md-6 col-lg-4">
                     <img src="img/submarine.png" class="w-100 my-2 rounded" alt="submarine">
                 </div>
-            
+
             </div>
         </div>
 
-        <div class="container bg-success text-white text-center">
-            <h3>About</h3>
-            <div class="d-flex justify-content-center">
-                <div class="border"></div>
-                <div><i class="fas fa-star"></i></div>
-                <div class="border"></div>
+        <div class="container-fluid bg-success py-5 px-5">
+            <div class="container text-white text-center">
+
+
+                <h3>About</h3>
+                <div class="d-flex justify-content-center">
+                    <div class="border"></div>
+                    <div><i class="fas fa-star"></i></div>
+                    <div class="border"></div>
+                </div>
+
+                <div class="row row-cols-1">
+
+
+                    <p class="col col-md-6">Freelancer is a free bootstrap
+                        theme created by Start Bootstrap.
+                        The download includes the
+                        complete source files including
+                        HTML, CSS, and JavaScript as
+                        well as optional LESS stylesheets
+                        for easy customization.
+                    </p>
+
+                    <p class="col col-md-6">
+
+                        Whether you're a student looking
+                        to showcase your work, a
+                        professional looking to attract
+                        clients, or a graphic artist looking
+                        to share your projects, this
+                        template is the perfect starting point!
+                    </p>
+                </div>
             </div>
-            <p>Freelancer is a free bootstrap
-                theme created by Start Bootstrap.
-                The download includes the
-                complete source files including
-                HTML, CSS, and JavaScript as
-                well as optional LESS stylesheets
-                for easy customization.
-            </p>
-
-            <p>
-
-                Whether you're a student looking
-                to showcase your work, a
-                professional looking to attract
-                clients, or a graphic artist looking
-                to share your projects, this
-                template is the perfect starting point!
-            </p>
         </div>
 
-        <div class="container ">
+        <div class="container py-4">
 
             <div class="text-center">
                 <h3>contact me</h3>
@@ -155,28 +171,39 @@
             </form>
 
         </div>
-            <div class="container text-center bg-secondary">
-                <h3>Location</h3>
-                <span>2215 John Daniel Drive Clark, MO 54243</span>
+        <div class="container-fluid  bg-secondary">
+            <div class="container text-center py-4">
 
-                <div>
-                    <h3>Around The Web</h3>
-                    <div class="d-flex justify-content-center">
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-google-plus"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
+
+                <div class="row row-cols-1">
+
+                    <div class="col col-md-4">
+                        <h3>Location</h3>
+                        <span>2215 John Daniel Drive Clark, MO 54243</span>
                     </div>
-                </div>
-                <div>
-                    <h3>About Freelancer</h3>
-                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="text-white">Start Bootstrap</a></p>
+
+                    <div class="col col-md-4">
+                        <h3>Around The Web</h3>
+                        <div class="d-flex justify-content-center">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-google-plus"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#"
+                                class="text-white">Start Bootstrap</a></p>
+                    </div>
+
                 </div>
             </div>
+        </div>
     </main>
 
     <footer>
-        <div class="container bg-secondary text-center py-4 m-0">
+        <div class="container-fluid bg-dark text-center text-white py-4">
             <span>Copyright Your Website 2019</span>
         </div>
     </footer>
