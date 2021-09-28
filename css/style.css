@@ -14,3 +14,15 @@
     background-color: #3a816d;
     border-color: #479882;
 }
+
+.star-row-white{
+    border-bottom: 5px solid white;
+    min-width: 80px;
+    border-radius: 3px;
+}
+
+.star-row-black{
+    border-bottom: 5px solid black;
+    min-width: 80px;
+    border-radius: 3px;
+}
