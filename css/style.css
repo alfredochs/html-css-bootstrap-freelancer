@@ -1,4 +1,5 @@
 
 :root {
-    --bs-secondary: #2c3e50;
+    --bs-dark-rgb: 44,63,80;
+    --bs-success-rgb: 26,188,157;
 }
