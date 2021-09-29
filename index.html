@@ -20,9 +20,9 @@
                 <nav class="d-flex justify-content-between align-items-center text-uppercase">
                     <h1>Start Bootstrap</h1>
                     <ul class="list-unstyled d-none d-md-flex">
-                        <li><a href="#" class="text-white px-3">Portfolio</a></li>
-                        <li><a href="#" class="text-white px-3">About</a></li>
-                        <li><a href="#" class="text-white px-3">Contact</a></li>
+                        <li><a href="#Portfolio" class="text-white text-decoration-none px-3">Portfolio</a></li>
+                        <li><a href="#About" class="text-white text-decoration-none px-3">About</a></li>
+                        <li><a href="#Contact" class="text-white text-decoration-none px-3">Contact</a></li>
                     </ul>
                     <div class="d-md-none">
                         <a href="#" class="text-white border p-3 rounded"><i class="fas fa-bars"></i></a>
@@ -45,7 +45,7 @@
                     <div class="star px-2"><i class="fas fa-star fs-2"></i></div>
                     <div class="star-row-white px-2"></div>
                 </div>
-                <div>
+                <div class="py-3">
                     <h5>Graphic Artist - Web Designer - Illustrator</h5>
                 </div>
             </div>
@@ -53,7 +53,7 @@
     </header>
 
     <main>
-        <div class="container text-center py-4">
+        <div class="container text-center py-4" id="Portfolio">
             <h2>Portfolio</h2>
             <div class="d-flex justify-content-center align-items-center">
                 <div class="star-row-black px-2"></div>
@@ -84,7 +84,7 @@
         </div>
 
         <div class="container-fluid bg-success py-5 px-5">
-            <div class="container text-white">
+            <div class="container text-white" id="About">
 
                 <h3 class="text-center py-3 text-uppercase">About</h3>
                 <div class="d-flex justify-content-center align-items-center">
@@ -127,7 +127,7 @@
             </div>
         </div>
 
-        <div class="container py-4">
+        <div class="container py-4" id="Contact">
 
             <div class="text-center text-uppercase">
                 <h3>contact me</h3>
@@ -192,9 +192,10 @@
 
                     <div class="col col-md-4">
                         <h3>Around The Web</h3>
-                        <div class=" d-flex justify-content-center">
+                        <div class="d-flex justify-content-center gap-2">
 
-                            <div class=" border text-white rounded-circle d-flex justify-content-center align-items-center"
+
+                            <div class="border text-white rounded-circle d-flex justify-content-center align-items-center"
                                 style="min-height: 40px; min-width: 40px;">
                                 <i class="fab fa-facebook-f"></i>
                             </div>
@@ -210,15 +211,33 @@
                                 style="min-height: 40px; min-width: 40px;">
                                 <i class="fab fa-linkedin-in"></i>
                             </div>
-
-
-
                         </div>
+
                     </div>
+
+                    <!-- <div class="row d-flex justify-content-center gap-2">
+                            <div class="col-2 border rounded-circle" style="min-height: 50px; min: height 50px; ;">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+
+                            <div class="col-2 border rounded-circle">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            
+                            <div class="col-2">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+
+                            <div class="col-2">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+
+                        </div> -->
+
                     <div class="col col-md-4">
                         <h3>About Freelancer</h3>
                         <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#"
-                                class="text-white">Start Bootstrap</a></p>
+                                class="my-text text-decoration-none">Start Bootstrap</a>.</p>
                     </div>
 
                 </div>
@@ -228,7 +247,7 @@
 
     <footer>
         <div class="container-fluid bg-dark text-center text-white py-4">
-            <span>Copyright Your Website 2019</span>
+            <span>Copyright <i class="far fa-copyright"></i> Your Website 2019</span>
         </div>
     </footer>
 
